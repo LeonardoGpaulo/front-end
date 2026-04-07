@@ -21,7 +21,7 @@ function pagina(){
     botao.textContent = "adicionar"
     div.appendChild(botao) 
 
-    const lista = document.createElement("listaTarefas");
+    const lista = document.createElement("ul");
     lista.id = "listaTarefas"
     div.appendChild(lista)
 
